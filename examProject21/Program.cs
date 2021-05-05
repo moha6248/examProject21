@@ -15,7 +15,7 @@ namespace examProject21
         {
             CreateHostBuilder(args).Build().Run();
         }
-//wakanda4ever
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
@@ -27,5 +27,4 @@ namespace examProject21
 
 
 // MO test
-
-
+// Dejan test
