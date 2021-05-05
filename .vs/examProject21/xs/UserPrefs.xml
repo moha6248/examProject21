@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.examProject21 PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="examProject21/Program.cs">
     <Files>
-      <File FileName="examProject21/Program.cs" Line="25" Column="6" />
+      <File FileName="examProject21/Program.cs" Line="17" Column="10" />
+      <File FileName="examProject21/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

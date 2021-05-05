@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vMoh4u9HJhgsQudWFn1yZtUdSrP4KwRpn2dDOwpNlB/4KadU7raeExSbe8z0RhWrgBd8mNP7VGfx/HgPnz4P/A==",
+  "dgSpecHash": "ziZ+uqy9/366WzSf5UWPI4F5vYBxyc7J8dvXLK4NiuugDgwDgZxpM9Tzt40jsNP7Oj8iXh3Cd8uPr0Zc+O+BuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruger\\Documents\\GitHub\\examProject21\\examProject21\\examProject21.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/hm/Desktop/GitHub/examProject21/examProject21/examProject21.csproj",
+  "expectedPackageFiles": [
+    "/Users/hm/.nuget/packages/csvhelper/27.0.2/csvhelper.27.0.2.nupkg.sha512",
+    "/Users/hm/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
