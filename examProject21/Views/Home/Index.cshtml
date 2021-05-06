@@ -6,3 +6,14 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<form asp-action="Index" method="post">
+    <div class="row input-group">
+        <input type="text" name="search" id="search" class="form-control" />
+
+
+        <div calss="input-group-btn">
+            <input type="submit" value="search" class="btn btn-primary" />
+
+        </div>
+    </div>
+</form>
