@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hB4qlQUPHT2JuBtQhSN+o1WOcMvFm+9OrH9wf8llorAY3Wj87wvGHWkW2LgY1ODTEsIoF43Csl1U9eZ3rx+8BA==",
+  "dgSpecHash": "l6LE3vKNq6y7A4nfHH8fCSUbD7gPbAcGDINZpmphMoOgPnAG4K8qJcB4rUFZ31e+/O1muUN2z+iDZURIKGL82Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\Desktop\\github\\examProject21\\examProject21\\examProject21.csproj",
+  "projectFilePath": "C:\\Users\\acer\\Desktop\\examProject21\\examProject21\\examProject21.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -9,8 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using examProject21.Models;
+using Microsoft.EntityFrameworkCore;
 namespace examProject21
-    using Microsoft.EntityFrameworkCore;
+    
 {
     public class Startup
     {
@@ -52,7 +53,7 @@ namespace examProject21
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=EmpController1}/{action=Index}/{id?}");
             });
         }
     }

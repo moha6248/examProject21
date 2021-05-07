@@ -8149,11 +8149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acer\\Desktop\\github\\examProject21\\examProject21\\examProject21.csproj",
+      "projectUniqueName": "C:\\Users\\acer\\Desktop\\examProject21\\examProject21\\examProject21.csproj",
       "projectName": "examProject21",
-      "projectPath": "C:\\Users\\acer\\Desktop\\github\\examProject21\\examProject21\\examProject21.csproj",
+      "projectPath": "C:\\Users\\acer\\Desktop\\examProject21\\examProject21\\examProject21.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acer\\Desktop\\github\\examProject21\\examProject21\\obj\\",
+      "outputPath": "C:\\Users\\acer\\Desktop\\examProject21\\examProject21\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
