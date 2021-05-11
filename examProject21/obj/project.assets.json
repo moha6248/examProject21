@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -7795,6 +7796,58 @@
       "sha512": "+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.5.3",
+=======
+      "CsvHelper/27.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/CsvHelper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/CsvHelper.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsvHelper/27.0.2": {
+      "sha512": "BXIM6epjyGh0C73L6t4+EPl1kNiMSIkjkgNXco6USKmO8Dqa+Zw/vujYJwP9S/s51iaR7zZ90mQKHfp/iLfv6A==",
+      "type": "package",
+      "path": "csvhelper/27.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.27.0.2.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7802,6 +7855,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+<<<<<<< HEAD
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
@@ -8077,6 +8131,15 @@
         "lib/netcore50/System.Xml.XmlSerializer.dll",
         "lib/netstandard1.3/System.Xml.XmlSerializer.dll",
         "lib/portable-net45+win8+wp8+wpa81/_._",
+=======
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
         "lib/win8/_._",
         "lib/wp80/_._",
         "lib/wpa81/_._",
@@ -8084,6 +8147,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net45/_._",
@@ -8121,6 +8185,40 @@
         "ref/netstandard1.3/zh-hans/System.Xml.XmlSerializer.xml",
         "ref/netstandard1.3/zh-hant/System.Xml.XmlSerializer.xml",
         "ref/portable-net45+win8+wp8+wpa81/_._",
+=======
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
         "ref/win8/_._",
         "ref/wp80/_._",
         "ref/wpa81/_._",
@@ -8128,14 +8226,20 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll",
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
+=======
+        "useSharedDesignerContext.txt",
+        "version.txt"
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
@@ -8145,10 +8249,18 @@
   },
   "packageFolders": {
     "C:\\Users\\hm\\.nuget\\packages\\": {}
+=======
+      "CsvHelper >= 27.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/hm/.nuget/packages/": {}
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\hm\\Desktop\\examProject21\\examProject21\\examProject21.csproj",
       "projectName": "examProject21",
       "projectPath": "C:\\Users\\hm\\Desktop\\examProject21\\examProject21\\examProject21.csproj",
@@ -8158,12 +8270,26 @@
       "configFilePaths": [
         "C:\\Users\\hm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "/Users/hm/Desktop/GitHub/examProject21/examProject21/examProject21.csproj",
+      "projectName": "examProject21",
+      "projectPath": "/Users/hm/Desktop/GitHub/examProject21/examProject21/examProject21.csproj",
+      "packagesPath": "/Users/hm/.nuget/packages/",
+      "outputPath": "/Users/hm/Desktop/GitHub/examProject21/examProject21/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/hm/.config/NuGet/NuGet.Config"
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+=======
+        "/Users/hm/Downloads": {},
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8182,6 +8308,7 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.0.0, )"
@@ -8205,6 +8332,11 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"
+=======
+          "CsvHelper": {
+            "target": "Package",
+            "version": "[27.0.2, )"
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
           }
         },
         "imports": [
@@ -8225,7 +8357,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+>>>>>>> 96b645b6aaa20a15c40fae3dc8843db4c9bf9410
       }
     }
   }
