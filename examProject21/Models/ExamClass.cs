@@ -15,6 +15,7 @@ namespace examProject21.Models
         public string unit { get; set; }
         public double water { get; set; }
         public string mUnit { get; set; }
+        public string address { get; set; }
 
     }
 }

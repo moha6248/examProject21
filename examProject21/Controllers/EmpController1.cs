@@ -23,6 +23,18 @@ namespace examProject21.Controllers
             var results = _cc.Sheet1.ToList();
 
             return View(results);
+        
+        }
+        [HttpGet]
+        public async Task<IActionResult> Index(string Empsearch)
+        {
+            ViewData["Getdetails"] = Empsearch;
+            var empquery = from x in _cc.Sheet1 select x;
+            if (!string.IsNullOrEmpty(Empsearch))
+            {
+                empquery = empquery.Where(x => x.address.Contains(Empsearch));
+            }
+            return View(await empquery.AsNoTracking().ToListAsync());
         }
     }
 }

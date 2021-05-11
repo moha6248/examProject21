@@ -3,15 +3,27 @@
 @{
     ViewData["Title"] = "Index";
 }
+ <br/>
+<h1>Daily Consumption Readings</h1>
+<hr/>
+<br/>
 
-<h1>Index</h1>
-
-
+<form method="get" asp-action="Index">
+    <p>
+        <input type="search" placeholder="Enter your address...." value="@ViewData["Getdetails"]" name="Empsearch" style="width:500px;"/>
+        <input type="submit" value="Search" class="btn btn-primary"/> |
+        <a asp-action="Index">Get all Records</a>
+    </p>
+    <br/>
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.address)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.date)
@@ -36,6 +48,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.address)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.date)
